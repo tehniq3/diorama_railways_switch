@@ -1,2 +1,8 @@
 # diorama_railways_switch
 info: http://nicuflorica.blogspot.com/
+
+article: http://nicuflorica.blogspot.com/2022/02/macaz-comandat-cu-servomotor-pentru.html
+
+![real](https://blogger.googleusercontent.com/img/a/AVvXsEh3W0tIzuMRBBjxjvyPgs152_BgFxWKFs1dHvykQY8d_TTVucjpvvSjw_kaqDES0sKZSEMFyAsxKs-dYWlKs1CGB9yKnHHwe6DhtOa_nSraIJre5JJffiOeBbC3vdBpra0KwtanBiM6E52wpHaazm3mpEnsj5_Stawr05-6pr4SmfCONJflfk2Iwz3jqQ=w200-h150)
+
+![schmatic v1](https://blogger.googleusercontent.com/img/a/AVvXsEgPbAeqdyg_Hco_fGOTtIOTI4rpxrB_rYPj1jy9fSDNz1wZ4lP2kd0LnRT4WYQ6Wr6Js7RfHFQdk_SdLK_wzsXJCIAYXHrjcwoAKt0tKYP6kgP1Vtw9mwDImx4CvKZ0_bHh9ZxAQiG4P1JRBbIA8Fx4aFtzU2VW7ZSBcdYvHHd7bZmNMesElBoZSqukQw=w320-h194)
