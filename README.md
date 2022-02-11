@@ -4,12 +4,10 @@ info: http://nicuflorica.blogspot.com/
 article: http://nicuflorica.blogspot.com/2022/02/macaz-comandat-cu-servomotor-pentru.html
 
 ![real](https://blogger.googleusercontent.com/img/a/AVvXsEh3W0tIzuMRBBjxjvyPgs152_BgFxWKFs1dHvykQY8d_TTVucjpvvSjw_kaqDES0sKZSEMFyAsxKs-dYWlKs1CGB9yKnHHwe6DhtOa_nSraIJre5JJffiOeBbC3vdBpra0KwtanBiM6E52wpHaazm3mpEnsj5_Stawr05-6pr4SmfCONJflfk2Iwz3jqQ=w200-h150)
-
 ![schmatic v1](https://blogger.googleusercontent.com/img/a/AVvXsEgPbAeqdyg_Hco_fGOTtIOTI4rpxrB_rYPj1jy9fSDNz1wZ4lP2kd0LnRT4WYQ6Wr6Js7RfHFQdk_SdLK_wzsXJCIAYXHrjcwoAKt0tKYP6kgP1Vtw9mwDImx4CvKZ0_bHh9ZxAQiG4P1JRBbIA8Fx4aFtzU2VW7ZSBcdYvHHd7bZmNMesElBoZSqukQw=w320-h194)
 
 article: http://nicuflorica.blogspot.com/2022/02/macaz-comandat-cu-servomotor-pentru_11.html
 
 ![real2](https://blogger.googleusercontent.com/img/a/AVvXsEgtkKBmJTEwBgiuK5R0BWtx-wvEYuVa2GGAxdRH3kl2BsDZsIKvM5PWIvXBLHrxIwtf1O5aV24ycuWCerQTiZWbsCj917-4Hl0UFkxVI0eOdWckuHk_uylx-DdVM7fqpPNSXMc3CkA7I_6O5RpNYMQgPTCzE7Dsp_d0hDwtyEAzvvfmP5m58xv_EZl-Cw=w200-h150)
-
 ![schematic_v2](https://blogger.googleusercontent.com/img/a/AVvXsEiSg4nn7Pf5Xb6VQviIXzjZbAILbCiLQtEtof0bfNlhP0mWlWZXa_iWCswgFzgVGrMeeAT6F7FFwYw3obGMAK3vVFGm6NXfdR5YqBX-wdeQ3iIt4jCGmZxCtNL3VxW4vF3aQEj2HnEFfIhVmaDqTOHN2F_fgShqLdeldwDDZyBXrcU_TKRGCFwCR7Xcfw=w320-h206)
 
