@@ -8,30 +8,31 @@ adapted by Nicu FLORICA (niq_ro)
 ver.1.0 - used barrier sketch https://github.com/tehniq3/diorama_barriers
 ver.1.0.b - used one pin for control 2 leds + flashing internal led (D13) 
 ver.2.0 - 4 servos with individual controls
+ver.2.b - move the servos at PWM outputs
 */
 
 #define led0 13 // internal led on board 
 
-#define sw11 3
-#define sw12 2
-#define servo1 4
-#define led1 5
 
-#define sw21 6
-#define sw22 7
-#define servo2 8
-#define led2 9
+#define sw11 2
+#define sw12 3
+#define servo1 6  // pwm
+#define led1 15   // A1
 
-#define sw31 10
-#define sw32 11
-#define servo3 12
-#define led3 14  // A0
+#define sw21 4
+#define sw22 5
+#define servo2 9  // pwm
+#define led2 16   // A2
 
-#define sw41 15  // A1
-#define sw42 16  // A2
-#define servo4 17 // A3
-#define led4 18  // A4
+#define sw31 7
+#define sw32 8
+#define servo3 10 // pwm
+#define led3 17   // A3
 
+#define sw41 12  
+#define sw42 14   // A0  
+#define servo4 11 // pwm
+#define led4 18   // A4
 
 #include <Servo.h>
 Servo myservo1;  // create servo object to control a servo
