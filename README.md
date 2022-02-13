@@ -11,3 +11,6 @@ article: http://nicuflorica.blogspot.com/2022/02/macaz-comandat-cu-servomotor-pe
 ![real2](https://blogger.googleusercontent.com/img/a/AVvXsEgtkKBmJTEwBgiuK5R0BWtx-wvEYuVa2GGAxdRH3kl2BsDZsIKvM5PWIvXBLHrxIwtf1O5aV24ycuWCerQTiZWbsCj917-4Hl0UFkxVI0eOdWckuHk_uylx-DdVM7fqpPNSXMc3CkA7I_6O5RpNYMQgPTCzE7Dsp_d0hDwtyEAzvvfmP5m58xv_EZl-Cw=w200-h150)
 ![schematic_v2](https://blogger.googleusercontent.com/img/a/AVvXsEiSg4nn7Pf5Xb6VQviIXzjZbAILbCiLQtEtof0bfNlhP0mWlWZXa_iWCswgFzgVGrMeeAT6F7FFwYw3obGMAK3vVFGm6NXfdR5YqBX-wdeQ3iIt4jCGmZxCtNL3VxW4vF3aQEj2HnEFfIhVmaDqTOHN2F_fgShqLdeldwDDZyBXrcU_TKRGCFwCR7Xcfw=w320-h206)
 
+article for 4 servos: https://nicuflorica.blogspot.com/2022/02/4-macazuri-comandat-cu-servomotoare.html
+![4](https://blogger.googleusercontent.com/img/a/AVvXsEgz27Cx4k6LrfB2fFa8N_7jY51p5jUwGvHylL9SGofzeHKZL7JU5nuszRVh50Jz4BEwdPl3A19uCzK3KGjTjTtsZYfPPEI8-gSDZbA-Ok7mfF5_Yh9aAIIVxOj7c5JA5HEDNHfaAKnTcDm7vrnhxSEVbXOhIICDaExIJBnail0EwqmGG-A_8CiB1DDhRg=s320)
+![schematic for 4 servos](https://blogger.googleusercontent.com/img/a/AVvXsEixofitQfildd8VuVlUVtw0oRWsNw3Ko2NeAYy0ZRhIzUgp0jvWLZEvIKTearcumiCVP3So2KQcGzFutwls2x1KThZYkzrBS08GlBcZhc9uzhG11Z2a7L4aVdrN5IfQJ2f6UHcBpM7Otb7Zhv21nSpxyj0yBklQmksKO3FgZjBOSgAWmpRN6pC1D1Xyzg=w320-h122)
