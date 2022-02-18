@@ -10,6 +10,7 @@ ver.1.0.b - used one pin for control 2 leds + flashing internal led (D13)
 ver.2.0 - 4 servos with individual controls: https://github.com/tehniq3/diorama_railways_switch
 ver.2.b - move outputs of the servos at PWM outputs
 ver.3.0 - use EEPROM to store position for each servos
+ver.3.c - repair value after restart
 */
 
 #define led0 13 // internal led on board 
@@ -53,13 +54,13 @@ int delta = 5;  // error position
 unsigned long  minipauza = 25;  // pentru reducere viteza, implicit e 15.. viteza scade daca numarul creste
 int pauzamica = 250; // pauza mica pentru apasare buton
 byte directie1 = 0;  // 0 - stop, 1 - left, 2 - right
-byte directie10 = 3;
+byte lumina1 = 3;
 byte directie2 = 0;  // 0 - stop, 1 - left, 2 - right
-byte directie20 = 3;
+byte lumina2 = 3;
 byte directie3 = 0;  // 0 - stop, 1 - left, 2 - right
-byte directie30 = 3;
+byte lumina3 = 3;
 byte directie4 = 0;  // 0 - stop, 1 - left, 2 - right
-byte directie40 = 3;
+byte lumina4 = 3;
 
 unsigned long tpcomanda1, tpcomanda2, tpcomanda3, tpcomanda4;
 
@@ -143,7 +144,16 @@ else
   myservo4.write(pos4);              // tell servo to go to position in variable 'pos4'
   delay(pauzamica);
 
-delay(5000);
+  if (pos1 > posmax-delta) lumina1 = 1;
+  else lumina1 = 2;
+  if (pos2 > posmax-delta) lumina2 = 1;
+  else lumina2 = 2;  
+  if (pos3 > posmax-delta) lumina3 = 1;
+  else lumina3 = 2;
+  if (pos4 > posmax-delta) lumina4 = 1;
+  else lumina4 = 2;
+
+delay(2000);
 }
 
 void loop() {
@@ -162,6 +172,7 @@ void loop() {
   {
   Serial.println("Servo1 to Left !");
   directie1 = 1;
+  lumina1 = 1;
   pos1 = posmin;
   delay(pauzamica);
   tpcomanda1 = millis();
@@ -171,6 +182,7 @@ void loop() {
   {
   Serial.println("Servo1 to Right!");
   directie1 = 2;
+  lumina1 = 2;
   pos1 = posmax;
   delay(pauzamica);
   tpcomanda1 = millis();
@@ -180,6 +192,7 @@ void loop() {
   {
   Serial.println("Servo2 to Left !");
   directie2 = 1;
+  lumina2 = 1;
   pos2 = posmin;
   delay(pauzamica);
   tpcomanda2 = millis();
@@ -189,6 +202,7 @@ void loop() {
   {
   Serial.println("Servo2 to Right!");
   directie2 = 2;
+  lumina2 = 2;
   pos2 = posmax;
   delay(pauzamica);
   tpcomanda2 = millis();
@@ -198,6 +212,7 @@ void loop() {
   {
   Serial.println("Servo3 to Left !");
   directie3 = 1;
+  lumina3 = 1;
   pos3 = posmin;
   delay(pauzamica);
   tpcomanda3 = millis();
@@ -207,6 +222,7 @@ void loop() {
   {
   Serial.println("Servo3 to Right!");
   directie3 = 2;
+  lumina3 = 2;
   pos3 = posmax;
   delay(pauzamica);
   tpcomanda3 = millis();
@@ -216,6 +232,7 @@ void loop() {
   {
   Serial.println("Servo4 to Left !");
   directie4 = 1;
+  lumina4 = 1;
   pos4 = posmin;
   delay(pauzamica);
   tpcomanda4 = millis();
@@ -225,6 +242,7 @@ void loop() {
   {
   Serial.println("Servo4 to Right!");
   directie4 = 2;
+  lumina4 = 2;
   pos4 = posmax;
   delay(pauzamica);
   tpcomanda4 = millis();
@@ -327,35 +345,35 @@ void loop() {
   }
 
 
-if (directie10 == 1)
+if (lumina1 == 1)
 {
   digitalWrite(led1, HIGH);  
 }
-if (directie10 == 2)
+if (lumina1 == 2)
 {
   digitalWrite(led1, LOW);    
 }
-if (directie20 == 1)
+if (lumina2 == 1)
 {
   digitalWrite(led2, HIGH);  
 }
-if (directie20 == 2)
+if (lumina2 == 2)
 {
   digitalWrite(led2, LOW);    
 }
-if (directie30 == 1)
+if (lumina3 == 1)
 {
   digitalWrite(led3, HIGH);  
 }
-if (directie30 == 2)
+if (lumina3 == 2)
 {
   digitalWrite(led3, LOW);    
 }
-if (directie40 == 1)
+if (lumina4 == 1)
 {
   digitalWrite(led4, HIGH);  
 }
-if (directie40 == 2)
+if (lumina4 == 2)
 {
   digitalWrite(led4, LOW);    
 }
@@ -374,10 +392,6 @@ if ((millis() - tpjoaca > tpmemorare) and (scris == 0))
   digitalWrite(led0, LOW);
 }
 
- directie10 = directie1;  
- directie20 = directie2;
- directie30 = directie3;
- directie40 = directie4;
  
 delay(minipauza);
 }  // end main loop
